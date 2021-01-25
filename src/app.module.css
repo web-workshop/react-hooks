@@ -1,0 +1,14 @@
+.app {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 5fr;
+  gap: 1rem;
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: #efefef;
+}
